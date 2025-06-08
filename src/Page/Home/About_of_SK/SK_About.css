@@ -1,0 +1,108 @@
+#About {
+  width: 100%;
+  background-color: #6473be4e;
+  display: flex;
+  align-items: center;
+}
+
+/* Title */
+.title {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 2.25rem;
+}
+
+/* Text Styling */
+.about-description p,
+.about-description ul {
+  text-transform: initial;
+  color: #30324ed6;
+  font-size: 16px;
+}
+
+/* Animation */
+.animate-slide-in {
+  animation: slideIn 1s ease-out forwards;
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Factory Building on Desktop */
+.factory_building {
+  background: url("../../../image/Factory_Building.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 90vh;
+  transform: translate(100px, -96px);
+}
+
+/* CTA Button */
+.cta-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #f4b843;
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+.cta-button:hover {
+  background-color: #d49a2c;
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+  .factory_building {
+    background: none;
+    height: auto;
+    transform: none;
+  }
+
+  .title {
+    font-size: 36px;
+    line-height: 1.8rem;
+  }
+
+  .about-description p,
+  .about-description ul {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 30px;
+    line-height: 1.5rem;
+  }
+
+  .about-description p,
+  .about-description ul {
+    font-size: 14px;
+  }
+
+  .container {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 26px;
+  }
+
+  .about-description p,
+  .about-description ul {
+    font-size: 13px;
+  }
+}

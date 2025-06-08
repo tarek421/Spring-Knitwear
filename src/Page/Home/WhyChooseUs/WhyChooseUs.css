@@ -1,0 +1,158 @@
+#WhyChooseUs {
+  background: linear-gradient(to right, #f5f5f5, #eaeaea);
+  padding: 60px 20px;
+}
+
+#WhyChooseUs .section-sub-title {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 700;
+  color: red;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+#WhyChooseUs .section-title {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  line-height: 1.2;
+  font-family: "Rajdhani", sans-serif;
+  color: #252576;
+}
+
+#WhyChooseUs .section-title span {
+  color: red;
+}
+
+#WhyChooseUs .section-title-2 {
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: #333;
+  padding-left: 20px;
+  border-left: 4px solid red;
+  margin-bottom: 30px;
+}
+
+#WhyChooseUs .Fetures {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+#WhyChooseUs .Fetures .d-flex:hover {
+  background: #f1f1f1;
+  border-radius: 8px;
+  transform: scale(1.05);
+  transition: all 0.5s ease;
+}
+
+#WhyChooseUs .Fetures h4 {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 700;
+  color: #252576;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+#WhyChooseUs .Fetures p {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #0e0c1eb0;
+  margin: 0;
+}
+
+#WhyChooseUs svg {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+#WhyChooseUs .safety-img-wrap {
+  position: relative;
+}
+
+#WhyChooseUs .WhyChooseUs-img-1 img,
+#WhyChooseUs .WhyChooseUs-img-2 img {
+  border: 8px solid #d3c3c3;
+  border-radius: 12px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+#WhyChooseUs .WhyChooseUs-img-1 {
+  position: relative;
+  z-index: 2;
+  width: 70%;
+  margin-bottom: 30px;
+}
+
+#WhyChooseUs .WhyChooseUs-img-2 {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 70%;
+  z-index: 2;
+}
+
+@media (max-width: 991px) {
+  #WhyChooseUs .WhyChooseUs-img-1,
+  #WhyChooseUs .WhyChooseUs-img-2 {
+    position: static;
+    width: 100%;
+    margin: 15px 0;
+  }
+
+  #WhyChooseUs .WhyChooseUs-img-2 {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  #WhyChooseUs .section-title {
+    font-size: 32px;
+  }
+
+  #WhyChooseUs .section-title-2 {
+    font-size: 14px;
+  }
+
+  #WhyChooseUs .Fetures h4 {
+    font-size: 18px;
+  }
+
+  #WhyChooseUs .Fetures p {
+    font-size: 13px;
+  }
+
+  #WhyChooseUs {
+    padding: 40px 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  #WhyChooseUs {
+    padding: 30px 10px;
+  }
+
+  #WhyChooseUs .section-title {
+    font-size: 28px;
+  }
+
+  #WhyChooseUs .section-sub-title {
+    font-size: 14px;
+  }
+
+  #WhyChooseUs .Fetures {
+    gap: 20px;
+  }
+
+  #WhyChooseUs .Fetures h4 {
+    font-size: 16px;
+  }
+
+  #WhyChooseUs .Fetures p {
+    font-size: 12px;
+  }
+}

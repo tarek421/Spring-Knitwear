@@ -1,0 +1,61 @@
+.footer {
+  background-color: #10172b;
+  color: white;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.footer-logo {
+  height: 50px;
+}
+
+.footer-description {
+  margin-top: 1rem;
+  max-width: 300px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 1rem;
+}
+
+.social-icons svg {
+  cursor: pointer;
+  font-size: 20px;
+  color: #ccc;
+  transition: color 0.3s ease;
+}
+
+.social-icons svg:hover {
+  color: #4CAF50;
+}
+
+.footer-heading {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #4CAF50;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 1rem;
+  background: #08053a;
+  color: #fff;
+  font-size: 14px;
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import './SK_About.css';
+import './SkAbout.css';
 import SK_Factory from '../../../image/Factory_Building.jpg';
 
 function SK_About() {

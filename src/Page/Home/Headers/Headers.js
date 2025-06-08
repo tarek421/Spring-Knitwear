@@ -5,7 +5,7 @@ import "swiper/css/effect-fade";
 import "swiper/css/pagination";
 
 import "./Headers.css";
-import { Autoplay, EffectFade, Pagination } from "swiper/modules";
+import { Autoplay, Pagination } from "swiper/modules";
 
 const Headers = () => {
   return (
@@ -21,7 +21,7 @@ const Headers = () => {
         pagination={{
           clickable: true
         }}
-        modules={[EffectFade, Autoplay, Pagination]}
+        modules={[Autoplay, Pagination]}
         className="mySwiper"
       >
         <SwiperSlide>

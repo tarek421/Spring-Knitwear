@@ -40,7 +40,7 @@ const Footer = () => {
             <h5 className="footer-heading">Contact</h5>
             <p><MdLocationOn /> <strong>Head Office:</strong> H#36, R#09, S#09, Uttara, Dhaka</p>
             <p><MdLocationOn /> <strong>Factory:</strong> 11/C/6 Moynartek, Uttarkhan, Dhaka-1230</p>
-            <p><MdEmail /> support@spring-knitwear.com</p>
+            <p><MdEmail /> support@spring-knitwearbd.com</p>
             <p><MdPhone /> +880 1755-697330</p>
           </div>
         </div>

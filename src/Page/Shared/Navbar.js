@@ -1,28 +1,46 @@
 import React, { useState, useEffect } from 'react';
 import './Navbar.css';
 import { NavLink } from 'react-router-dom';
+import logo from '../../image/logo.png';
+import logo2 from '../../image/logo2.png';
 
 const Navbar = () => {
   const [sticky, setSticky] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const [visible, setVisible] = useState(true);
 
   useEffect(() => {
+    let timeoutId;
     const handleScroll = () => {
-      setSticky(window.scrollY > 200);
-    };
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+      const scrollY = window.scrollY;
 
-  const toggleMenu = () => {
-    setMenuOpen(!menuOpen);
-  };
+      if (scrollY > 200){
+        setVisible(false);
+        clearTimeout(timeoutId);
+        timeoutId = setTimeout(() => {
+          setSticky(true);
+          setVisible(true);
+        }, 50);
+      } else if (scrollY <= 200) {
+        setSticky(false);
+        setVisible(true);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      clearTimeout(timeoutId);
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [sticky]);
+
+  const toggleMenu = () => setMenuOpen(!menuOpen);
 
   return (
-    <nav className={`navbar ${sticky ? 'sticky' : ''}`}>
+    <nav className={`navbar ${sticky ? 'sticky' : ''} ${visible ? 'show' : 'hide'}`}>
       <div className="logo">
-        <NavLink to="/">
-          {/* <img src={logo} alt="Spring Knitwear Logo" /> */}
+        <NavLink to="/" className="d-flex">
+          <img src={sticky ? logo : logo2} alt="Spring Knitwear Logo" />
           <span>Spring Knitwear</span>
         </NavLink>
       </div>

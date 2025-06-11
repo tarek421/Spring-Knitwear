@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom';
 import logo from '../../image/logo.png';
 import logo2 from '../../image/logo2.png';
 
+
 const Navbar = () => {
   const [sticky, setSticky] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);

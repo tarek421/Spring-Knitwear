@@ -1,8 +1,9 @@
 import React from 'react';
-import logo from '../../Spring_logo.jpg';
+import logo from '../../image/logo.svg';
 import './Footer.css';
 import { FaFacebookF, FaLinkedinIn, FaTwitter, FaInstagram, FaYoutube } from 'react-icons/fa';
 import { MdLocationOn, MdPhone, MdEmail } from 'react-icons/md';
+import { NavLink } from 'react-router-dom';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -12,7 +13,12 @@ const Footer = () => {
       <div className='container py-5'>
         <div className='row'>
           <div className='col-md-4 mb-4'>
-            <img src={logo} alt="Spring Knitwear Logo" className='footer-logo' />
+            <div className="logo">
+              <NavLink to="/" className="d-flex align-items-center">
+                <img src={logo} alt="Spring Knitwear Logo" />
+                <span>Spring Knitwear</span>
+              </NavLink>
+            </div>
             <p className='footer-description'>
               Spring Knitwear is a lifestyle that brings together a journey enriched by history,
               cultural experiences, travel, and influences from various interactions with diverse

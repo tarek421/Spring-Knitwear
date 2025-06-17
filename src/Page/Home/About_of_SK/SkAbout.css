@@ -1,9 +1,44 @@
 #About {
   width: 100%;
-  background-color: #6473be4e;
   display: flex;
   align-items: center;
+  height: 100vh;
+    background-color: rgba(116, 130, 200, 0.214);
 }
+
+/* #About .background{
+  background: url('../../../image/logo.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+  background-position: center;
+} */
+
+#About .background {
+  position: relative;
+  z-index: 1;
+  min-height: 100%;
+  padding: 20px;
+}
+
+#About .background::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: url('../../../image/logo.svg') no-repeat center center;
+  background-size: contain;
+  opacity: 0.25;
+  z-index: -1;
+}
+
+/* Content styling */
+#About .content {
+  position: relative;
+  z-index: 2;
+}
+
 
 /* Title */
 .title {
@@ -42,8 +77,8 @@
   background: url("../../../image/Factory_Building.jpg");
   background-size: cover;
   background-position: center center;
-  height: 90vh;
-  transform: translate(100px, -96px);
+  height: 100vh;
+  transform: translate(100px, -48px);
 }
 
 /* CTA Button */

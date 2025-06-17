@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import './Navbar.css';
 import { NavLink } from 'react-router-dom';
-import logo from '../../image/logo.png';
-import logo2 from '../../image/logo2.png';
+import logo from '../../image/logo.svg';
+// import logo2 from '../../image/logo.svg';
 
 
 const Navbar = () => {
@@ -40,8 +40,8 @@ const Navbar = () => {
   return (
     <nav className={`navbar ${sticky ? 'sticky' : ''} ${visible ? 'show' : 'hide'}`}>
       <div className="logo">
-        <NavLink to="/" className="d-flex">
-          <img src={sticky ? logo : logo2} alt="Spring Knitwear Logo" />
+        <NavLink to="/" className="d-flex align-items-center">
+          <img src={logo} alt="Spring Knitwear Logo" />
           <span>Spring Knitwear</span>
         </NavLink>
       </div>

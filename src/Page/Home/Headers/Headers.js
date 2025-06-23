@@ -5,24 +5,20 @@ import "swiper/css/effect-fade";
 import "swiper/css/pagination";
 
 import "./Headers.css";
-import { Autoplay, Pagination } from "swiper/modules";
+import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
 const Headers = () => {
   return (
     <div id="slider">
       <Swiper
-        spaceBetween={30}
-        centeredSlides={true}
-        loop={true}
-        autoplay={{
-          delay: 10000,
-          disableOnInteraction: false
-        }}
-        pagination={{
-          clickable: true
-        }}
-        modules={[Autoplay, Pagination]}
-        className="mySwiper"
+                        navigation={true}
+                autoplay={{
+                    delay: 5000,
+                    disableOnInteraction: false,
+                }}
+                loop={true}
+                modules={[Autoplay, Pagination, Navigation]}
+                className="mySwiper"
       >
         <SwiperSlide>
           <div className="slider zoom-image">

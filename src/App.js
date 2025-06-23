@@ -5,6 +5,9 @@ import Home from './Page/Home/Home'
 import Navbar from './Page/Shared/Navbar';
 import Footer from './Page/Shared/Footer';
 import NotFound from './Page/NotFound/NotFound';
+import About from './Page/About/About';
+import Products from './Page/Products/Products';
+import Contacts from './Page/Contacts/Contact/Contacts';
 
 function App() {
   return (
@@ -13,9 +16,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
-        <Route path="/about" element={<div>About Page</div>} />
-        <Route path="/products" element={<div>Product Page</div>} />
-        <Route path="/contact" element={<div>Contact Page</div>} />
+        <Route path="/about" element={<About />} />
+        <Route path="/products" element={<Products />} />
+        <Route path="/contacts" element={<Contacts />} />
         <Route path="*" exact="true" element={<NotFound />} />
       </Routes>
       <Footer/>

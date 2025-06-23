@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import './Navbar.css';
 import { NavLink } from 'react-router-dom';
 import logo from '../../image/logo.svg';
-// import logo2 from '../../image/logo.svg';
 
 
 const Navbar = () => {
@@ -56,7 +55,7 @@ const Navbar = () => {
         <li><NavLink to='/home' onClick={() => setMenuOpen(false)}>Home</NavLink></li>
         <li><NavLink to='/about' onClick={() => setMenuOpen(false)}>About</NavLink></li>
         <li><NavLink to='/products' onClick={() => setMenuOpen(false)}>Products</NavLink></li>
-        <li><NavLink to='/contact' onClick={() => setMenuOpen(false)}>Contact</NavLink></li>
+        <li><NavLink to='/contacts' onClick={() => setMenuOpen(false)}>Contact</NavLink></li>
       </ul>
     </nav>
   );

@@ -15,22 +15,28 @@
   height: 300px;
 }
 
-#contact-form input,
-#contact-form select {
+#contact-form{
+  background:url('../../../image/contact-bg.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#contact-form input {
   width: 100%;
   padding: 20px;
   margin-top: 3px;
-  border: 1px solid #ddd;
+  border: 1px solid #846666;
+  background: #ffffff42;
 }
-#contact-form select {
-  padding: 22.5px;
-}
+
 #contact-form textarea {
   width: 97.9%;
   margin: 13px;
+   background: #ffffff42
 }
 #contact-form .bordered {
-  border: 3px solid #ddd;
+  border: 3px solid #d7d6df6c;
   padding: 5rem;
 }
 #contact-form button {

@@ -3,13 +3,13 @@
   justify-content: space-between;
   align-items: center;
   padding: 5px 100px;
-  position: absolute;
+  position: fixed;
   width: 100%;
   top: 0;
   left: 0;
   background-color: #00000080;
   box-shadow: 0 2px 5px rgb(197 177 177 / 78%);
-  transition: background-color 0.3s ease, box-shadow 0.3s ease, padding 0.3s ease, transform 1s ease;
+  transition: all 0.3s ease;
   z-index: 1000;
 }
 
@@ -30,6 +30,7 @@
 .logo span {
   color: white;
   font-weight: bold;
+  white-space: nowrap;
 }
 
 .menu {
@@ -38,9 +39,6 @@
   gap: 25px;
   margin: 0;
   padding: 0;
-    /* transform: translateY(0);
-    transition: transform 1s ease;
-    z-index: 1000; */
 }
 
 .menu li a {
@@ -50,11 +48,13 @@
   transition: color 0.3s ease;
 }
 
-.active{
-  color: rgb(234, 103, 9) !important;
+.menu li a:hover {
+  color: #007bff;
 }
 
-/* Add these classes at the bottom of your Navbar.css */
+.active {
+  color: rgb(234, 103, 9) !important;
+}
 
 .navbar.hide {
   transform: translateY(-100%);
@@ -68,21 +68,12 @@
   transition: transform 0.5s ease, opacity 0.5s ease;
 }
 
-
-.menu li a:hover {
-  color: #007bff;
-}
-
-/* Sticky state */
+/* Sticky style */
 .sticky {
-  position: fixed;
   background-color: #ffffff;
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
   padding: 5px 80px;
-  color: black;
-  transform: translateY(0);
-  transition: transform 1s ease;
-  z-index: 1000;
+  transition: all 0.3s ease;
 }
 
 .sticky .logo span,
@@ -94,12 +85,14 @@
   color: #007bff;
 }
 
-/* Toggle Button */
+/* Toggle button */
 .menu-toggle {
   display: none;
   flex-direction: column;
   cursor: pointer;
   gap: 5px;
+  background: none;
+  border: none;
   z-index: 1100;
 }
 
@@ -114,11 +107,9 @@
 .menu-toggle.open .bar:nth-child(1) {
   transform: rotate(45deg) translate(5px, 5px);
 }
-
 .menu-toggle.open .bar:nth-child(2) {
   opacity: 0;
 }
-
 .menu-toggle.open .bar:nth-child(3) {
   transform: rotate(-45deg) translate(5px, -5px);
 }
@@ -141,9 +132,10 @@
     padding: 40px 20px;
     gap: 30px;
     transition: right 0.3s ease;
+    overflow-y: auto;
   }
 
-  .menu .active {
+  .menu.active {
     right: 0;
   }
 
@@ -156,15 +148,15 @@
     display: flex;
   }
 
-  .logo span {
-    color: white;
-  }
-
   .sticky .menu-toggle .bar {
     background-color: black;
   }
 
   .sticky .menu li a {
-    color: black;
+    color: #fff;
+  }
+
+  .sticky .menu li a:hover {
+    color: #007bff;
   }
 }

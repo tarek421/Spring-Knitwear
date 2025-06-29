@@ -12,8 +12,10 @@ const ProductCard = ({ product, onViewDetails }) => {
           <span>View Details</span>
         </div>
       </div>
-      <h4 onClick={onViewDetails}>{product.title}</h4>
-      <p>{product.quality}</p>
+      <div className='product-content'>
+        <h4 onClick={onViewDetails}>{product.title}</h4>
+        <p>{product.quality}</p>
+      </div>
     </div>
   );
 };

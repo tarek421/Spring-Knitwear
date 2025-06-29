@@ -2,13 +2,14 @@ import React from 'react';
 import './SkAbout.css';
 import { motion } from 'framer-motion';
 import SK_Factory from '../../../image/Factory_Building.jpg';
+import { Link } from 'react-router-dom';
 
 function SK_About() {
     return (
         <section id='About' className='py-5'>
             <div className="container mx-auto">
                 <div className='row'>
-                    <div className='col-md-8 py-5'>
+                    <div className='col-lg-8 py-5'>
                         <div className='background'>
                             <div className='content'>
                                 <motion.div
@@ -39,14 +40,14 @@ function SK_About() {
                                     </ul>
 
                                     <div className="mt-5">
-                                        <a href="#contact" className="cta-button">Get in Touch</a>
+                                        <Link to="/contacts" className="cta-button">Get in Touch</Link>
                                     </div>
                                 </motion.div>
                             </div>
                         </div>
                     </div>
 
-                    <div className='col-md-4 col-12 factory_building'>
+                    <div className='col-lg-4 col-12 factory_building'>
                         <img
                             src={SK_Factory}
                             alt="Spring Knitwear Factory"

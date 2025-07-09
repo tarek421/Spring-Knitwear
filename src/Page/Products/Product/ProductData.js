@@ -181,6 +181,26 @@ const productsData = [
       require('../../../image/Our_product/WUP0400/WUP0400-D53-MS_3.webp'),
       require('../../../image/Our_product/WUP0400/WUP0400-D53-MS_4.webp'),]
   },
+  {
+    id: '10',
+    sku: 'USP2591-L45',
+    title: 'Boys Knitted Funnel Neck',
+    description: 'Discover timeless sophistication with the U.S. Polo Assn. Boys Knitted Funnel Neck, a wardrobe staple that effortlessly combines comfort and style. Crafted from a luxurious cotton blend, this classic fit garment features a ribbed funnel neck and cuffs for a refined touch.',
+    category: 'Boys',
+    quality: '60% Cotton 20% Viscose 20% Nylon',
+    highlights: [
+      'Luxurious cotton blend fabric',
+      'Ribbed funnel neck and cuffs',
+      'Functional zip front with branded USPA zip',
+      'Embroidered double horsemen logo'],
+    image: require('../../../image/Our_product/WUP0400/WUP0400-D53-MS_1.webp'),
+    images: [
+      require('../../../image/Our_product/WUP0400/WUP0400-D53-MS_1.webp'),
+      require('../../../image/Our_product/WUP0400/WUP0400-D53-MS_5.webp'),
+      require('../../../image/Our_product/WUP0400/WUP0400-D53-MS_2.webp'),
+      require('../../../image/Our_product/WUP0400/WUP0400-D53-MS_3.webp'),
+      require('../../../image/Our_product/WUP0400/WUP0400-D53-MS_4.webp'),]
+  },
 ];
 
 export default productsData;

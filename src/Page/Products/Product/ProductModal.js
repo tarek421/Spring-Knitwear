@@ -2,7 +2,7 @@ import React from 'react';
 import Modal from 'react-modal';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper/modules';
-import '../Products';
+import '../Products.css';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';

@@ -3,9 +3,9 @@
 
 import React from 'react';
 
-const Contact = () => {
+const Map = () => {
   return (
-    <div style={{ padding: '0 5rem' }}>
+    <div id='map' style={{ padding: '0 5rem' }}>
       <div style={{ marginTop: '1rem' }}>
         <iframe 
         title="Google Map - Spring Knitwear Location"
@@ -22,4 +22,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Map;

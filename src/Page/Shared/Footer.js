@@ -3,7 +3,7 @@ import logo from '../../image/logo.svg';
 import './Footer.css';
 import { FaFacebookF, FaLinkedinIn, FaTwitter, FaInstagram, FaYoutube } from 'react-icons/fa';
 import { MdLocationOn, MdPhone, MdEmail } from 'react-icons/md';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -36,9 +36,10 @@ const Footer = () => {
           <div className='col-md-4 mb-4 px-md-5'>
             <h5 className="footer-heading">Spring Knitwear</h5>
             <ul className="footer-links list-unstyled">
-              <li><a href="#About">About Us</a></li>
-              <li><a href="#Services">Services</a></li>
-              <li><a href="#WhoWeAre">Who We Are</a></li>
+              <li><Link to='about'>About Us</Link></li>
+              <li><Link to='services'>Our Services</Link></li>
+              <li><Link to='products'>Our products</Link></li>
+              <li><Link to='contacts'>Contact Us</Link></li> 
             </ul>
           </div>
 

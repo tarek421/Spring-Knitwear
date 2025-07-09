@@ -193,13 +193,11 @@ const productsData = [
       'Ribbed funnel neck and cuffs',
       'Functional zip front with branded USPA zip',
       'Embroidered double horsemen logo'],
-    image: require('../../../image/Our_product/WUP0400/WUP0400-D53-MS_1.webp'),
+    image: require('../../../image/Our_product/USP2591/USP2591-L45-MS_1.webp'),
     images: [
-      require('../../../image/Our_product/WUP0400/WUP0400-D53-MS_1.webp'),
-      require('../../../image/Our_product/WUP0400/WUP0400-D53-MS_5.webp'),
-      require('../../../image/Our_product/WUP0400/WUP0400-D53-MS_2.webp'),
-      require('../../../image/Our_product/WUP0400/WUP0400-D53-MS_3.webp'),
-      require('../../../image/Our_product/WUP0400/WUP0400-D53-MS_4.webp'),]
+      require('../../../image/Our_product/USP2591/USP2591-L45-MS_1.webp'),
+      require('../../../image/Our_product/USP2591/USP2591-L45-MS_2.webp'),
+      require('../../../image/Our_product/USP2591/USP2591-L45-MS_3.webp'),]
   },
 ];
 

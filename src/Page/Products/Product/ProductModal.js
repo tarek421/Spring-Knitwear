@@ -40,7 +40,7 @@ const ProductModal = ({ product, onClose }) => {
           <p><strong>Description:</strong> {product.description}</p>
           <p><strong>Category:</strong> {product.category}</p>
           <p><strong>Quality:</strong> {product.quality}</p>
-          <p><strong>Highlight:</strong></p>
+          <p className='highlight'><strong>Highlight:</strong></p>
           <ul>{product?.highlights?.map(highlight => <li>{highlight}</li>)}</ul>
         </div>
       </div>

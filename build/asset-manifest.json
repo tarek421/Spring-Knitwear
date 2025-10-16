@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.685879e3.css",
-    "main.js": "/static/js/main.2bbd5bce.js",
+    "main.js": "/static/js/main.cefa8df0.js",
     "static/js/453.e6f96c3d.chunk.js": "/static/js/453.e6f96c3d.chunk.js",
     "static/media/Sk-showrom.jpg": "/static/media/Sk-showrom.47ec736a7a422b754853.jpg",
     "static/media/USP2591-L45-MS_3.webp": "/static/media/USP2591-L45-MS_3.f68c1ffaa09d5343e88d.webp",
@@ -74,6 +74,8 @@
     "static/media/GOTS_Global Organic_Textile_Standard.svg": "/static/media/GOTS_Global Organic_Textile_Standard.1257f24a6c74029ebf56c0dac071447b.svg",
     "static/media/ELLE.png": "/static/media/ELLE.c881251fba25e9b75a89.png",
     "static/media/OEKOTEX_Standart_100.svg": "/static/media/OEKOTEX_Standart_100.d47eb3211c904d8cb9c78e60629cefeb.svg",
+    "static/media/MD_SIR.jpg": "/static/media/MD_SIR.37aac7f0524cd382099b.jpg",
+    "static/media/Chairman.jpg": "/static/media/Chairman.770c1e5a0f7cfeab5e56.jpg",
     "static/media/Spring_BD_Knitwear_Profile[1].jpg": "/static/media/Spring_BD_Knitwear_Profile[1].acdad1aac71aaa018c22.jpg",
     "static/media/Global_Recycled_Standard.svg": "/static/media/Global_Recycled_Standard.d8e78c740e3f39c8321ee53cfba63d08.svg",
     "static/media/ROCHAS.png": "/static/media/ROCHAS.7216dec3629c35c70454.png",
@@ -85,11 +87,11 @@
     "static/media/logo.svg": "/static/media/logo.0dda499abcb9fb76d012e193b6dd643b.svg",
     "index.html": "/index.html",
     "main.685879e3.css.map": "/static/css/main.685879e3.css.map",
-    "main.2bbd5bce.js.map": "/static/js/main.2bbd5bce.js.map",
+    "main.cefa8df0.js.map": "/static/js/main.cefa8df0.js.map",
     "453.e6f96c3d.chunk.js.map": "/static/js/453.e6f96c3d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.685879e3.css",
-    "static/js/main.2bbd5bce.js"
+    "static/js/main.cefa8df0.js"
   ]
 }

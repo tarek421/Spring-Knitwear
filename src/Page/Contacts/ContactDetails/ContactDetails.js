@@ -12,7 +12,7 @@ const ContactDetail = () => {
                             <div className="p-5 text-center">
                             <FontAwesomeIcon icon={faEnvelopeOpenText} />
                             <h3>Email Address</h3>
-                            <p>support@spring-knitwearbd.com</p>
+                            <p>hasan@spring-knitwearbd.com</p>
                             </div>
                         </div>
                     </div>

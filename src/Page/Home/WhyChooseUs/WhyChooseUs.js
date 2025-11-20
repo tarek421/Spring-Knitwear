@@ -23,7 +23,7 @@ const Safety = () => {
                     <div className="col-sm-12 col-lg-6">
                         <h6 className="section-sub-title" data-aos="fade-up">WHY CHOOSE US?</h6>
                         <h1 className="section-title" data-aos="fade-up" data-aos-delay="100">Quality Is Our First Priority</h1>
-                        <p className="section-title-2" data-aos="fade-up" data-aos-delay="200">At Spring Knitwear Ltd, we believe quality speaks louder than words. Every sweater we produce undergoes strict quality checks to ensure premium standards for our global clients.</p>
+                        <p className="section-title-2" data-aos="fade-up" data-aos-delay="200">At Spring BD Knitwear LTD, we believe quality speaks louder than words. Every sweater we produce undergoes strict quality checks to ensure premium standards for our global clients.</p>
                         <div className="mt-3 Fetures">
                             <div className="d-flex">
                                 <div>
@@ -62,7 +62,7 @@ const Safety = () => {
 
                                 <div className="ms-3">
                                     <h4>Trusted Worldwide</h4>
-                                    <p>Spring Knitwear Ltd proudly serves long-term partners across Europe, North America, and other key export markets – built on trust, commitment, and results.</p>
+                                    <p>Spring BD Knitwear LTD proudly serves long-term partners across Europe, North America, and other key export markets – built on trust, commitment, and results.</p>
                                 </div>
                             </div>
 

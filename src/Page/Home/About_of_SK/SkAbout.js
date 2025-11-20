@@ -19,7 +19,7 @@ function SK_About() {
                                     transition={{ duration: 0.8 }}
                                     viewport={{ once: true, amount: 0.4 }}
                                 >
-                                    <h1 className="title">The story of Spring Knitwear</h1>
+                                    <h1 className="title">The story of Spring BD Knitwear LTD</h1>
                                 </motion.div>
 
                                 <motion.div
@@ -29,9 +29,9 @@ function SK_About() {
                                     transition={{ duration: 1, delay: 0.2 }}
                                     viewport={{ once: true, amount: 0.3 }}
                                 >
-                                    <p>Spring Knitwear, established in 2012 with a single factory, has evolved into a globally recognized name in the sweater industry. Today, the company operates both as a buying house and a factory, catering to major retailers in the UK, Australia, and Germany. With an annual production capacity of over 180 million sweaters, Spring Knitwear specializes in crafting high-quality garments for men, women, boys, and girls. Guided by its core values—Quality, Price, and Delivery—the company continues to excel in meeting global standards.</p>
+                                    <p>Spring BD Knitwear LTD, established in 2012 with a single factory, has evolved into a globally recognized name in the sweater industry. Today, the company operates both as a buying house and a factory, catering to major retailers in the UK, Australia, and Germany. With an annual production capacity of over 180 million sweaters, Spring BD Knitwear LTD specializes in crafting high-quality garments for men, women, boys, and girls. Guided by its core values—Quality, Price, and Delivery—the company continues to excel in meeting global standards.</p>
 
-                                    <p className="my-5">We ensure timely delivery of the products you need at the price you want. Spring Knitwear takes pride in its proven track record of collaborating with renowned brands such as U.S. Polo Assn., Duchamp, Penfield, Jack Wills, Peckham Rye, Gant and many more.</p>
+                                    <p className="my-5">We ensure timely delivery of the products you need at the price you want. Spring BD Knitwear LTD takes pride in its proven track record of collaborating with renowned brands such as U.S. Polo Assn., Duchamp, Penfield, Jack Wills, Peckham Rye, Gant and many more.</p>
 
                                     <ul className='mt-5'>
                                         <li>Year of establishment: January 2012</li>

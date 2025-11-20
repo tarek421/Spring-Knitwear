@@ -1,0 +1,16 @@
+<IfModule mod_rewrite.c>
+  Options -MultiViews
+  RewriteEngine On
+  RewriteBase /
+
+  # যদি index.html কে সরাসরি access দেয়া হয়
+  RewriteRule ^index\.html$ - [L]
+
+  # যদি requested filename বা directory মিলে না
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !-l
+
+  # তখন সমস্ত request index.html এ পাঠাও
+  RewriteRule . /index.html [L]
+</IfModule>

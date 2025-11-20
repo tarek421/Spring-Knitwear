@@ -43,7 +43,7 @@ const Navbar = () => {
       <div className="logo">
         <NavLink to="/" className="d-flex align-items-center">
           <img src={logo} alt="Spring Knitwear Logo" />
-          <span>Spring Knitwear</span>
+          <span>Spring BD Knitwear LTD</span>
         </NavLink>
       </div>
 

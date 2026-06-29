@@ -47,7 +47,7 @@ const MDMessage = () => {
 
         {/* left Column - Message */}
         <div className="col-md-9 text-end">
-          <h3>Message from our honorable Chireman</h3>
+          <h3>Message from our honorable Chairman</h3>
            <p>
             Achieving the highest quality standards and ensuring timely delivery have
             always been our prime objectives. To accomplish these goals, our experienced
